@@ -1,0 +1,28 @@
+.App{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    background: #fff;
+    text-align: center;
+
+  }
+  img{
+    width:100%;
+  }
+  .btn-primary {
+      margin: 1em 0;
+      background: darkorange;
+      color: white;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      border: 1px solid darkorange
+  }
+  .btn-primary:hover {
+      opacity: 50%;
+
+  }
+  .card {
+      margin: 1em
+  }
+  .h5 {
+      margin-top: 0.5em;
+  }
